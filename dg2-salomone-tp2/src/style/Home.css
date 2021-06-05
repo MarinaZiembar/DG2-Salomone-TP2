@@ -1,0 +1,32 @@
+
+.Home{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home .border-box{
+    width:95%;
+    height:90%;
+    border:3px solid rgba(255,255,255, 0.8);
+    display:flex;
+    align-items: center;
+    filter: brightness(9.0);
+}
+
+.Home h1{
+    color:white;
+    font-size:150px;
+    mix-blend-mode: multiply;
+    padding-left:25px;
+}
+
+.Home #background-home{
+    position: fixed; 
+    z-index: -99; 
+    width: 200%; 
+    height: 200%;
+    right:50%;
+}
