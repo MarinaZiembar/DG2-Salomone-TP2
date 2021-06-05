@@ -30,3 +30,32 @@
     height: 200%;
     right:50%;
 }
+
+.sabias-que{
+    width:20%;
+}
+
+.sabias-que h3{
+    font-size:20px;
+    color:white;
+    margin-bottom:10px;
+}
+
+.sabias-que .button-saber-mas{
+    font-size:14px;
+    color:white;
+    background-color: blue;
+    width:100%;
+    padding:12px 25px;
+    margin-top:10px;
+    border:unset;
+    text-decoration: none;
+    text-align: center;
+    cursor:pointer;
+}
+
+.sabias-que .button-saber-mas:hover{
+    color:black;
+    background: white;
+    transition:all 0.4s ease;
+}
