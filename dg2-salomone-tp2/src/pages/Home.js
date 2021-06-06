@@ -18,7 +18,7 @@ function Home() {
   return (
     <div className="Home">
       <div id="background-home">
-        <iframe width="200%" height="100%" src="https://www.youtube.com/embed/ICmWwxaTmB8?start=84&controls=0&autoplay=1&loop=1&showinfo=0&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ICmWwxaTmB8?start=84&controls=0&autoplay=1&loop=1&showinfo=0&mute=1&hd=1&rel=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
       <div className="border-box">
 

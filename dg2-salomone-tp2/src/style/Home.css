@@ -26,9 +26,9 @@
 .Home #background-home{
     position: fixed; 
     z-index: -99; 
-    width: 200%; 
-    height: 200%;
-    right:50%;
+    width: 125%; 
+    height: 125%;
+    right:-12%;
 }
 
 .sabias-que{

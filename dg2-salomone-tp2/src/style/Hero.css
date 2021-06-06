@@ -1,0 +1,52 @@
+.Hero{
+    width:100vw;
+    height:45vh;
+    display:flex;
+    justify-content: space-between;
+    align-items:flex-end;
+    position:relative;
+    color:white;
+    -webkit-box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
+    -moz-box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
+    box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
+    border-bottom-left-radius: 35px !important;
+    border-bottom-right-radius: 35px !important;
+    border-left: 1px solid white !important;
+    border-right: 1px solid white !important;
+    overflow-x:hidden;
+}
+
+.Hero .brand{
+    position:absolute;
+    top:25px;
+    left:30px;
+    color:white;
+    font-weight:600;
+    font-size:28px;
+}
+
+.Hero #background-hero{
+    position: absolute; 
+    z-index: -99; 
+    width: 250%; 
+    height: 150vh;
+    right:50%; 
+}
+
+.Hero .hamburguer{
+    right:4% !important;
+    top:3% !important;
+    
+}
+
+.Hero h1{
+    font-size:60px;
+    color:white;
+    font-weight:500;
+    padding:0px 0px 20px 30px;
+}
+
+.Hero p{
+    padding:0px 30px 30px 0px;
+}
+

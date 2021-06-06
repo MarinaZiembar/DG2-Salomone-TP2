@@ -1,10 +1,10 @@
 .hamburger{
-	position:fixed;
+	position:absolute;
     background-color:transparent;
-	right:6%;
-	top:7%;
+	right:40px;
+	top:15px;
 	height:30px;
-	width:40px;
+	width:45px;
 	padding:20px 20px;
 	-webkit-transform:translate3d(0, 0, 0);
 	transform:translate3d(0, 0, 0);

@@ -1,0 +1,96 @@
+.Contacto{
+    width:100vw;
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Contacto .border-box{
+    width:95%;
+    height:90%;
+    border:3px solid rgba(255,255,255,0.8);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    position:relative;
+}
+
+.Contacto h1{
+    color:white;
+    font-size:80px;
+    padding-left:25px;
+}
+
+.Contacto h2{
+    color:white;
+    font-weight:300;
+    font-size:20px;
+    padding-left:30px;
+    margin-top:15px;
+}
+
+.Contacto #background-contacto{
+    position: fixed; 
+    z-index: -99; 
+    width: 125%; 
+    height: 125%;
+    right:-12%;
+}
+
+.Contacto .contact-form{
+    width:45%;
+    padding:0px 30px;
+    margin-top:60px;
+}
+
+.Contacto .contact-form .row{
+    width:100%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+.Contacto .contact-form .row input{
+    width:48%;
+    margin:1%;
+    height:40px;
+    border:0px;
+    background-color:rgba(255, 255, 255, 0.95);
+    padding:5px 10px;
+    border-radius:8px;
+    font-family:'Inter';
+}
+
+.Contacto .contact-form .row input[type="submit"]{
+    width:100%;
+    margin:1%;
+    border:0px;
+    background:black;
+    color:white;
+    padding:12px 25px;
+    font-family:'Inter';
+    cursor:pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+    font-weight:600;
+}
+
+.Contacto .contact-form .row input[type="submit"]:hover{
+    background:white;
+    color:black;
+    transform: translateY(-3px);
+    opacity:0.8;
+}
+
+.Contacto .contact-form .row textarea{
+    width:98%;
+    margin:1%;
+    height:120px;
+    border-radius:8px;
+    border:0px;
+    background-color:rgba(255, 255, 255, 0.95);
+    padding:10px;
+    font-family:'Inter';
+}
