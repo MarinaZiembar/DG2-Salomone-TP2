@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
+import Menu from '../components/Menu';
 import {curiosities} from '../utils/Curiosities';
+import refresh from '../img/refresh.svg';
 
 
 function Home() {
@@ -16,18 +18,21 @@ function Home() {
   return (
     <div className="Home">
       <div id="background-home">
-        <iframe width="200%" height="100%" src="https://www.youtube.com/embed/ICmWwxaTmB8?start=45&controls=0&autoplay=1&loop=1&showinfo=0&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="200%" height="100%" src="https://www.youtube.com/embed/ICmWwxaTmB8?start=84&controls=0&autoplay=1&loop=1&showinfo=0&mute=1" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
       </div>
-      <div class="border-box">
+      <div className="border-box">
+
+        <Menu />
 
         <h1>Bang.</h1>
         
         <div className="sabias-que">
-          <h3 >Sabías que...?</h3>
-          <p>{curiosities[funFact]}</p>
           <div className="button-saber-mas" onClick={() => getRandomAnswer(0,12)}>
-            <p>Más datos curiosos</p>
+            <img src={refresh} className="refresh-icon" alt="refresh"/>
+            <h3>Sabías que...?</h3>
           </div>
+          <p>{curiosities[funFact]}</p>
+          {/* <p className="button-saber-mas" onClick={() => getRandomAnswer(0,12)}>Más datos curiosos</p> */}
         </div>
 
       </div>

@@ -10,16 +10,16 @@
 .Home .border-box{
     width:95%;
     height:90%;
-    border:3px solid rgba(255,255,255, 0.8);
+    border:3px solid rgba(255,255,255,0.8);
     display:flex;
     align-items: center;
-    filter: brightness(9.0);
+    justify-content: space-between;
+    position:relative;
 }
 
 .Home h1{
     color:white;
     font-size:150px;
-    mix-blend-mode: multiply;
     padding-left:25px;
 }
 
@@ -32,30 +32,45 @@
 }
 
 .sabias-que{
-    width:20%;
+    width:35%;
+    text-align: right;
+    display:flex;
+    flex-direction:column;
+    align-self:flex-end;
+    justify-content:flex-end;
+    padding-right:30px;
+    margin-bottom:15px;
 }
 
 .sabias-que h3{
-    font-size:20px;
+    font-size:18px;
     color:white;
-    margin-bottom:10px;
+}
+
+.sabias-que p{
+    font-size:12px;
+    color:white;
+    margin-bottom:15px;
 }
 
 .sabias-que .button-saber-mas{
-    font-size:14px;
-    color:white;
-    background-color: blue;
-    width:100%;
-    padding:12px 25px;
-    margin-top:10px;
-    border:unset;
-    text-decoration: none;
-    text-align: center;
+    display:flex;
+    align-items:center;
+    justify-content: flex-end;
+    margin-bottom:6px;
     cursor:pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
 }
 
 .sabias-que .button-saber-mas:hover{
-    color:black;
-    background: white;
-    transition:all 0.4s ease;
+    transform: translateY(-1px);
+    opacity:0.8;
+}
+
+.sabias-que .refresh-icon{
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(316deg) brightness(101%) contrast(103%);
+    width:13px;
+    margin-right:8px;
 }
