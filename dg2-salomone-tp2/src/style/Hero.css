@@ -9,11 +9,6 @@
     -webkit-box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
     -moz-box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
     box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
-    border-bottom-left-radius: 35px !important;
-    border-bottom-right-radius: 35px !important;
-    border-left: 1px solid white !important;
-    border-right: 1px solid white !important;
-    overflow-x:hidden;
 }
 
 .Hero .brand{

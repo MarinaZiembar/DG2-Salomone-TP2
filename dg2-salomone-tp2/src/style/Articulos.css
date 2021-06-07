@@ -1,0 +1,154 @@
+.Articulos{
+    margin-bottom:25px;
+}
+
+.Articulos .row{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    padding:0 1%;
+    max-width:100%;
+}
+
+.Articulos .col{
+    width:100%;
+    padding:0% 1%;
+}
+
+.Articulos .col-3{
+    width:25%;
+    padding:0% 1%;
+}
+
+.Articulos .categoria-pill{
+    background:rgba(212, 212, 212, 0.3);
+    border-radius: 50px;
+    padding:5px 10px;
+    color:white;
+    width:fit-content;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+.Articulos .card-articulo-4 .categoria-pill{
+    background:rgba(0, 0, 0, 0.4);
+    border-radius: 50px;
+    padding:5px 10px;
+    color:white;
+    width:fit-content;
+    font-size:12px;
+    margin-bottom:10px;
+}
+
+
+.Articulos .card-articulo-1{
+    background:url('../img/articulo1.jpg') center center;
+    background-size:cover;
+    height:350px;
+    border-radius: 12px;
+    padding:30px;
+    margin-top:15px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    color:white;
+    cursor:pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.Articulos .card-articulo-1:hover, 
+.Articulos .card-articulo-2:hover, 
+.Articulos .card-articulo-3:hover,
+.Articulos .card-articulo-4:hover{
+    transform: translateY(-4px);
+}
+
+/* .Articulos .card-articulo-1 h2{
+    font-size:34px;
+} */
+
+.Articulos .card-articulo-1 p{
+    font-size:18px;
+    margin-top:10px;
+}
+
+.Articulos .card-articulo-2{
+    background:url('../img/articulo2.jpg') center center;
+    background-size:cover;
+    height:350px;
+    border-radius: 12px;
+    margin-top:15px;
+    padding:30px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    color:white;
+    cursor:pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.Articulos .card-articulo-3{
+    background:url('../img/articulo3.jpeg') center center;
+    background-size:cover;
+    height:350px;
+    margin-top:15px;
+    border-radius: 12px;
+    padding:30px 20px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    color:white;
+    cursor:pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.Articulos .card-articulo-4{
+    background:#fff;
+    background-size:cover;
+    height:300px;
+    border-radius: 12px;
+    margin-top:15px;
+    padding:30px;
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    color:black;
+    cursor:pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    position:relative;
+    transition-timing-function: ease-out;
+    -webkit-box-shadow: 0px 10px 23px -7px rgba(0,0,0,0.14);
+    -moz-box-shadow: 0px 10px 23px -7px rgba(0,0,0,0.14);
+    box-shadow: 0px 10px 23px -7px rgba(0,0,0,0.14);
+}
+
+.Articulos .card-articulo-4 h2{
+    font-size:18px;
+}
+
+.Articulos .card-articulo-4 img{
+    position:absolute;
+    top:0;
+    right:0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width:100%;
+    height:60%;
+    object-fit:cover;
+    object-position:top;
+}
+
+.Articulos .card-articulo-4 .card-content{
+    display:flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    padding-top:20px;
+    height:40%;
+}
