@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+.Home ._layer{
+	background:white;
+}
+
 .Home .border-box{
     width:95%;
     height:90%;
@@ -21,7 +25,18 @@
     color:white;
     font-size:150px;
     padding-left:25px;
+    font-weight:600;
 }
+
+.Home h4{
+    font-size:14px;
+    color:white;
+    font-style:oblique;
+    font-weight:300;
+    padding-left:35px;
+    margin-top:-20px;
+}
+
 
 .Home #background-home{
     position: fixed; 

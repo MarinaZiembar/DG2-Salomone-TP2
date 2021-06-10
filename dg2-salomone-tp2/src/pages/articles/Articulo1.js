@@ -1,18 +1,32 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import Menu from '../../components/Menu';
 import pic1 from '../../img/articulo1-a.png';
 import pic2 from '../../img/articulo1-b.png';
 import pic3 from '../../img/articulo1-c.png';
+import video from "../../img/bk-articulo-1.mp4";
+
+
 
 function Articulo1() {
 
+  useEffect(() => {
+    
+    const bkVideo = document.getElementById("background-articulo-1");
+    bkVideo.play();
+
+  }, [])
+
   return (
     <div className="Articulo-1">
+
+      <video src={video} autoPlay muted loop id="background-articulo-1" />
+
       <div className="header">
         <Link to="/"><p className="brand">Bang.</p></Link>
         <Menu/>
       </div>
+      
       <div className="articulo-1-grid">
         <div className="col-1">
           <h1>Ojos y oídos en el espacio</h1>

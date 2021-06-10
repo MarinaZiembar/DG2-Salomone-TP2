@@ -24,15 +24,17 @@ function Home() {
 
         <Menu />
 
-        <h1>Bang.</h1>
-        
+        <div className="home-title">
+          <h1>Bang.</h1>
+          <h4>Ciencia interactiva y más viva que nunca.</h4>
+        </div>
+
         <div className="sabias-que">
           <div className="button-saber-mas" onClick={() => getRandomAnswer(0,12)}>
             <img src={refresh} className="refresh-icon" alt="refresh"/>
             <h3>Sabías que...?</h3>
           </div>
           <p>{curiosities[funFact]}</p>
-          {/* <p className="button-saber-mas" onClick={() => getRandomAnswer(0,12)}>Más datos curiosos</p> */}
         </div>
 
       </div>

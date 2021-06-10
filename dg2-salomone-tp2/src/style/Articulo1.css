@@ -1,0 +1,86 @@
+
+
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    height:90px;
+}
+
+.Articulo-1 {
+    background:#000 center center;
+}
+
+.Articulo-1 #background-articulo-1{
+    position: fixed;
+    z-index:0;
+    right: -40%;
+    opacity:0.2;
+    bottom: 0;
+    width: 150vw; 
+    object-fit: cover !important;
+}
+
+.Articulo-1 ._layer{
+	background:white;
+}
+
+.Articulo-1 .header{
+    position:relative;
+    z-index:1000
+}
+
+.Articulo-1 .header .brand{
+    color:white;
+    margin-left:30px;
+    font-size:28px;
+    font-weight:600;
+}
+
+.articulo-1-grid{
+    padding-top:60px;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    position:relative;
+    z-index:10
+}
+
+
+.Articulo-1 .col-1, .Articulo-1 .col-2, .Articulo-1 .col-3{
+    width:33%;
+    padding:2%;
+}
+
+.Articulo-1 .pic-1, .Articulo-1 .pic-2, .Articulo-1 .pic-3{
+    width:100%;
+}
+
+.Articulo-1 .col-1 h1{
+    font-size:56px;
+    color:white;
+}
+
+.Articulo-1 .col-1 p{
+    font-style: oblique;
+    padding:30px 0;
+    font-size:18px;
+    color:white;
+}
+
+.Articulo-1 .col-2 .pic-2{
+    padding: 0 0 30px 0;
+}
+
+.Articulo-1 .col-2 p, .Articulo-1 .col-3 p{
+    text-align:justify;
+    padding:5px 0px;
+    font-size:16px;
+    color:white;
+}
+
+.Articulo-1 .col-3 .pic-3{
+    text-align:justify;
+    padding: 0px 0px 30px 0px;
+}
+

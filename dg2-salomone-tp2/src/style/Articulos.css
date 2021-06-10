@@ -2,6 +2,10 @@
     margin-bottom:25px;
 }
 
+.Articulos ._layer{
+    background: white !important;
+}
+
 .Articulos .row{
     margin-top:15px;
     display:flex;
