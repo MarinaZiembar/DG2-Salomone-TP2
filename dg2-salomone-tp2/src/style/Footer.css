@@ -1,0 +1,78 @@
+.Footer{
+    height:120px;
+    background-color: black;
+    padding:50px 25px;
+    display:flex;
+    position:relative;
+    z-index:30;
+    border-top:1px solid rgba(255, 255, 255, 0.5);
+}
+
+.Footer .col-1{
+    width:33%;
+}
+
+.Footer .col-2{
+    width:66%;
+}
+
+.Footer h5{
+    color:white;
+    font-weight:600;
+    font-size:18px;
+    margin-bottom:10px;
+}
+
+.Footer .col-1 p{
+    color:white;
+    font-weight:400;
+    font-size:14px;
+    padding:5px 0px;
+}
+
+.Footer .brand p{
+    color:white;
+    font-weight:600;
+    font-size:24px;
+    padding:0px !important;
+}
+
+.Footer .slogan{
+    font-size:10px !important;
+    font-style:oblique;
+    color:white;
+    padding-top:10px;
+}
+
+.Footer .form{
+    display:flex;
+}
+
+.Footer .form input{
+    margin-right:2%;
+    width:60%;
+    height:30px !important;
+    border:0px;
+    background-color:rgba(255, 255, 255, 0.95);
+    padding:5px 10px;
+    font-family:'Inter';
+}
+
+.Footer .form input[type="submit"]{
+    height:40px !important;
+    width:30%;
+    border:0px;
+    background-color:rgba(255, 255, 255, 0.95);
+    padding:12px 25px;
+    cursor:pointer;
+    font-weight:600;
+    transition-duration: 0.3s;
+    transition-property: all;
+    transition-timing-function: ease-out;
+}
+
+.Footer .form input[type="submit"]:hover{
+    transform: translateY(-3px);
+    background:black;
+    color:white;
+}

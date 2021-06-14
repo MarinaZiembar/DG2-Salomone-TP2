@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import Menu from '../../components/Menu';
+import Footer from '../../components/Footer';
 import video from "../../img/hero-articulo-3.mp4";
 
 
@@ -37,7 +38,7 @@ function Articulo3() {
         <p>En tiempo récord, el poder del ingenio humano ha sido capaz de salir al paso del azote del coronavirus SARS-CoV-2 con infinidad de vacunas, algunas de las cuales ya se están distribuyendo por el mundo o lo harán en breve: Pfizer-BioNTech, Moderna-NIAID, Sinopharm, Sinovac o la Sputnik V de Rusia.</p>
         <p>A lo largo del año seguirán las de Oxford-AstraZeneca, Novavax, Janssen y otras. En los próximos meses el trabajo de los científicos deberá centrarse en recoger, procesar y analizar el inmenso volumen de datos que va a generar esta campaña global de inmunización sin precedentes.</p>
       </div>
-
+      <Footer/>
     </div>
   );
 }

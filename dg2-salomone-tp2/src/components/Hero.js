@@ -16,7 +16,7 @@ function Hero() {
       </Link>
       <Menu />
       <h1>Artículos</h1>
-      <p> {date()} </p>
+      <p>{date()}</p>
     </div>
   );
 }

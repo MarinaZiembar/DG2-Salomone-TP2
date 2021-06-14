@@ -1,6 +1,7 @@
 import React, {useEffect} from 'react';
 import {Link} from 'react-router-dom';
 import Menu from '../../components/Menu';
+import Footer from '../../components/Footer';
 import video from "../../img/hero-articulo-2.mp4";
 
 
@@ -83,7 +84,7 @@ function Articulo2() {
           </div>
         </div>
       </div>
-
+      <Footer/>
     </div>
   );
 }

@@ -6,7 +6,6 @@ html {
 }
 
 * {
-    box-sizing: border-box;
     margin:0px;
     padding:0px;
     text-decoration:none !important;
@@ -30,3 +29,4 @@ body{
 @import './style/Articulo2.css';
 @import './style/Articulo3.css';
 @import './style/Articulos.css';
+@import './style/Footer.css';
