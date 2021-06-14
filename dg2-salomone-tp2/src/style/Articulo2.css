@@ -5,7 +5,7 @@
 }
 
 .Articulo-2 .hero-articulo-2{
-    height:50vh;
+    height:100vh;
     object-fit:cover;
     position:relative;
     overflow-y:hidden;
@@ -17,7 +17,7 @@
     right: 0;
     bottom: -137px;
     max-width: 100vw; 
-    min-height: 50vh;
+    min-height: 100vh;
 }
 
 .Articulo-2 .header .brand{
@@ -41,32 +41,23 @@
     display:flex;
     flex-direction:column;
     align-items:flex-end;
-    padding-right:30px;
+    padding-right:100px;
     max-width: 100%;
 }
 
 .Articulo-2 .content-articulo-2 .title-articulo-2 h1{
     font-size:60px;
     color:white;
-    margin-top:-90px;
+    margin-top:-80vh;
+    padding-left:30px;
 }
 
-.Articulo-2 .content-articulo-2 .title-articulo-2 h2{
+.Articulo-2 .content-articulo-2 .col-2 h2{
     font-size:20px;
-    margin-top:40px;
-    width:40%;
-    text-align:right;
+    text-align:left;
     font-weight:600;
     font-style: oblique;
-}
-
-.Articulo-2 .content-articulo-2 .col-1{
-    width:33%;
-    display:flex;
-    flex-direction:column;
-    align-self: flex-start;
-    padding-left:30px;
-    margin-top:10vh;
+    margin-bottom:15px;
 }
 
 .Articulo-2 .content-articulo-2 .row{
@@ -75,11 +66,13 @@
 }
 
 .Articulo-2 .content-articulo-2 .col-1{
-    width:35%;
+    width:40%;
     display:flex;
     flex-direction:column;
     padding-left:30px;
-    margin-top:35vh;
+    align-self: flex-start;
+    margin-top:100px;
+    padding-left:100px
 }
 
 .Articulo-2 .content-articulo-2 .col-2{
@@ -87,8 +80,9 @@
     display:flex;
     flex-direction:column;
     text-align:justify;
-    padding-right:30px;
-    margin-top:30px;
+    padding: 30px 100px 0px 35px;
+    margin-top:-65vh;
+    background: white !important;
 }
 
 .Articulo-2 .content-articulo-2 .col-2 p{
@@ -104,6 +98,7 @@
 .Articulo-2 .content-articulo-2 .col-1 .module-numeracion .title {
     display:flex;
     border-bottom:1px solid rgba(0,0,0,0.5);
+    align-items: flex-end;
 }
 
 .Articulo-2 .content-articulo-2 .col-1 .module-numeracion .title h4{
@@ -114,9 +109,18 @@
     font-size:30px;
     margin-top:5px;
     margin-left:5px;
+    margin-bottom: 10px;
 }
 
 .Articulo-2 .content-articulo-2 .col-1 .module-numeracion p{
     margin-top:15px;
     margin-left:15px;
+}
+
+.Articulo-2 .content-articulo-2 .col-2 #video-articulo-2{
+    height:70%;
+    margin-top:30px;
+    margin-bottom:20px;
+    width:auto;
+    object-fit:cover;
 }
