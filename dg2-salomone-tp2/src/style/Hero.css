@@ -2,31 +2,20 @@
     width:100vw;
     height:45vh;
     display:flex;
-    justify-content: space-between;
-    align-items:flex-end;
+    flex-direction:column;
     position:relative;
-    color:white;
-    -webkit-box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
-    -moz-box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
-    box-shadow: inset 0px 0px 55px 50px rgba(0,0,0,0.85);
+    margin-bottom:30px;
 }
 
 .Hero .brand{
     position:absolute;
     top:25px;
     left:30px;
-    color:white;
+    color:black;
     font-weight:600;
     font-size:28px;
 }
 
-.Hero #background-hero{
-    position: absolute; 
-    z-index: -99; 
-    width: 250%; 
-    height: 150vh;
-    right:50%; 
-}
 
 .Hero .hamburguer{
     right:4% !important;
@@ -34,14 +23,34 @@
     
 }
 
+.Articulos ._layer{
+	background:black;
+}
+
+.Articulos .hamburger.is-active ._layer{
+	background:white !important;
+}
+
 .Hero h1{
-    font-size:60px;
+    margin-top:40px;
+    font-size:270px;
     color:white;
-    font-weight:500;
+    font-weight:800;
     padding:0px 0px 20px 30px;
+    background-image:url('../img/bk-articulos.gif');
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .Hero p.date{
     padding:0px 50px 30px 0px;
+    display:flex;
+    align-self:flex-end;
+    font-weight:600;
+    margin-top:-30px;
+    position:absolute;
+    top:50%;
+    right:13%;
 }
 
