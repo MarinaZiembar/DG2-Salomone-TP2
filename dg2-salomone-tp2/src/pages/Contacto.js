@@ -1,5 +1,6 @@
 import React from 'react';
 import Menu from '../components/Menu';
+import videoContacto from '../img/menu-contacto.mp4';
 
 
 
@@ -12,7 +13,10 @@ function Contacto() {
       </div>
       <div className="border-box">
 
-        <Menu />
+        <Menu 
+          background_url={videoContacto} 
+          dato_curioso="El óleo Azul Ultramar se obtenía a partir de la piedra Lapislázuli que se utilizaba principalmente para pintar el manto de la Virgen."
+        />
 
         <div className="contact-text">
           <h1>Contacto</h1>

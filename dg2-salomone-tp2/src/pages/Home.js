@@ -1,18 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 import Menu from '../components/Menu';
-import {curiosities} from '../utils/Curiosities';
-import refresh from '../img/refresh.svg';
+import videoHome from '../img/menu-home.mp4';
 
 
 function Home() {
-
-
-  const [funFact, setFunFact] = useState(0);
-  
-  const getRandomAnswer = (min, max) => {
-    const indexAnswer = Math.floor(Math.random() * (max - min)) + min;
-    setFunFact(indexAnswer);
-  }
 
 
   return (
@@ -22,19 +13,17 @@ function Home() {
       </div>
       <div className="border-box">
 
-        <Menu />
+        <Menu 
+          background_url={videoHome} 
+          dato_curioso="Las orugas tienen alrededor de 4 mil músculos y 12 ojos, 6 patas verdaderas y 5 pares de patas falsas."
+        />
 
         <div className="home-title">
           <h1>Bang.</h1>
-          <h4>Ciencia interactiva y más viva que nunca.</h4>
         </div>
 
         <div className="sabias-que">
-          <div className="button-saber-mas" onClick={() => getRandomAnswer(0,12)}>
-            <img src={refresh} className="refresh-icon" alt="refresh"/>
-            <h3>Sabías que...?</h3>
-          </div>
-          <p>{curiosities[funFact]}</p>
+          <h4>Ciencia interactiva y más viva que nunca.</h4>
         </div>
 
       </div>

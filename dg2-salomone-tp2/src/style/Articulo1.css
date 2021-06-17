@@ -9,6 +9,10 @@
 
 .Articulo-1 {
     background:#000 center center;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:100%;
 }
 
 .Articulo-1 #background-articulo-1{
@@ -27,7 +31,8 @@
 
 .Articulo-1 .header{
     position:relative;
-    z-index:1000
+    z-index:1000;
+    width:100%;
 }
 
 .Articulo-1 .header .brand{
@@ -38,7 +43,7 @@
 }
 
 .articulo-1-grid{
-    padding-top:60px;
+    padding-top:40px;
     width:100%;
     display:flex;
     justify-content: center;
@@ -47,12 +52,36 @@
 }
 
 
-.Articulo-1 .col-1, .Articulo-1 .col-2, .Articulo-1 .col-3{
+.Articulo-1 .col-1, 
+.Articulo-1 .col-2{
     width:33%;
     padding:2%;
 }
 
-.Articulo-1 .pic-1, .Articulo-1 .pic-2, .Articulo-1 .pic-3{
+.Articulo-1 .col-3{
+    width:66%;
+    display:flex;
+    flex-direction:column;
+    padding-bottom:100px;
+    position:relative;
+}
+
+.Articulo-1 .col-3 p{
+    width:50%;
+    padding:2%;
+}
+
+.Articulo-1 .col-3 h2{
+    width:50%;
+    font-size:30px;
+    margin-bottom:25px;
+    font-weight:700;
+    color:white;
+}
+
+.Articulo-1 .pic-1, 
+.Articulo-1 .pic-2, 
+.Articulo-1 .pic-3{
     width:100%;
 }
 
@@ -72,15 +101,88 @@
     padding: 0 0 30px 0;
 }
 
-.Articulo-1 .col-2 p, .Articulo-1 .col-3 p{
+.Articulo-1 .col-2 p, 
+.Articulo-1 .col-3 p{
     text-align:justify;
     padding:5px 0px;
     font-size:16px;
     color:white;
 }
 
-.Articulo-1 .col-3 .pic-3{
-    text-align:justify;
-    padding: 0px 0px 30px 0px;
+
+.Articulo-1 .destacado{
+    font-size:22px !important;
+    text-align:left;
+    font-weight:500;
+    padding:25px 0px !important;
+    margin:20px 0px !important;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+
+.Articulo-1 .row{
+    width:66%;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:flex-start;
+    position:relative;
+    z-index:10;
+    padding-top:30px;
+    padding-bottom:100px;
+}
+
+.Articulo-1 .row h4{
+    font-size:30px;
+    color:white;
+    margin-bottom:40px;
+}
+
+.Articulo-1 .row .pics{
+    display:flex;
+    width:100%;
+    justify-content:space-between;
+}
+
+.Articulo-1 .row .pics img{
+    width: 170px;
+    height:170px;
+    border-radius:1000px;
+    opacity:1;
+}
+
+
+.Articulo-1 .row .pics .t-pic-1-overlay,
+.Articulo-1 .row .pics .t-pic-2-overlay,
+.Articulo-1 .row .pics .t-pic-3-overlay,
+.Articulo-1 .row .pics .t-pic-4-overlay{
+    width: 170px;
+    height:170px;
+    background-color:rgba(0,0,0,0.6);
+    border-radius:1000px;
+    opacity:0;
+    position:absolute;
+    color:white;
+    transition:all 0.4s ease;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+}
+
+.Articulo-1 .row .pics .telescope-1-group,
+.Articulo-1 .row .pics .telescope-2-group,
+.Articulo-1 .row .pics .telescope-3-group,
+.Articulo-1 .row .pics .telescope-4-group{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.Articulo-1 .row .pics .t-pic-1-overlay:hover,
+.Articulo-1 .row .pics .t-pic-2-overlay:hover,
+.Articulo-1 .row .pics .t-pic-3-overlay:hover,
+.Articulo-1 .row .pics .t-pic-4-overlay:hover{
+    opacity:1;
 }
 
