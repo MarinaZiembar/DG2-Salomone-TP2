@@ -11,7 +11,8 @@
 
 .Articulo-3{
     display:flex;
-    min-height:100vh;
+    min-height:100vh;    
+    margin-bottom:50px;
 }
 
 .Articulo-3 .hero-articulo-3{
@@ -29,8 +30,8 @@
 
 .Articulo-3 #background-articulo-3{
     max-width: 45vw; 
-    height: 100%;
-    margin-top:-50vh;
+    height: 130%;
+    margin-top:-32vh;
 }
 
 .Articulo-3 .col-1{
@@ -58,7 +59,7 @@
     width:35%;
     display:flex;
     flex-direction:column;
-    margin-top:20%;
+    margin-top:18%;
     margin-bottom:40px;
     margin-left:50px;
 }
@@ -77,10 +78,11 @@
 
 
 .Articulo-3 .destacado{
-    font-size:22px !important;
+    font-size:21px !important;
     text-align:left;
     font-weight:600;
     padding:25px 2%;
+    color:#9E68A5;
     margin:20px 2% !important;
     border-top:1px solid black;
     border-bottom:1px solid black;
